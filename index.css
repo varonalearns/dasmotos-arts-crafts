@@ -1,0 +1,60 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* font */
+    font-size: 16px;
+    font-family: "Helvetica", sans-serif;
+}
+
+header,
+main, 
+footer {
+    margin: 4rem 1rem;
+}
+
+header {
+    background-image: url("./assets/pattern.webp");
+}
+
+h1 {
+    color: khaki;
+    font-size: 6.25rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h3, 
+figure,
+p {
+    margin: 1.5rem 0;
+}
+
+figure {
+    margin: 1.5rem 0;
+}
+
+strong {
+    color: blue;
+    font-weight: bold;
+}
+
+.first-h2 {
+    background-color: mediumspringgreen;
+}
+.second-h2 {
+    background-color: lightcoral;
+}
+.third-h2 {
+    background-color: skyblue;
+}
+
